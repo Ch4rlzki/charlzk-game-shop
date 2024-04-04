@@ -1,0 +1,66 @@
+$orange-light: #FF9800;
+$black: #161618;
+$gray-800: #454549;
+$gray-100: #F4F4F4;
+$orange-dark: #E35E26;
+
+$primary: $orange-light;
+$secondary: $orange-dark;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Karantina:wght@300;400;700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+html, body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: $black;
+
+    header {
+        .header-top {
+            color: white;
+            height: 50px;
+            background-color: $gray-800;
+        }
+        .header {
+            color: white;
+            height: 57px;
+            border-bottom: 1px solid $gray-800;
+        }
+    }
+
+    main {
+        .main-section {
+            h3 {
+                font-family: "Epilogue", sans-serif;
+            }
+            .discount {
+                font-family: "Karantina", system-ui;
+            }
+        }
+    }
+}

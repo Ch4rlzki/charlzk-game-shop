@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Charlzk Game Shop</title>
+    <meta name='viewport' content='width=1299, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="./assets/img/bootstrap-5-logo-icon.png">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.min.css'>
+</head>
+<body>
+    <header>
+        <nav class="header-top">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col d-flex justify-content-start align-items-center">
+                        <img class="img-fluid" src="./assets/img/header-top/col-1.svg" alt="col-1.svg">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="./assets/img/header-top/col-2.svg" alt="col-2.svg">
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center gap-2">
+                        <img src="./assets/img/header-top/flag.svg" alt="flag.svg">
+                        <a class="text-decoration-none text-white" href="#">English EU</a>
+                        <label>|</label>
+                        <a class="text-decoration-none text-white" href="#">EUR</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col d-flex justify-content-start align-items-center">
+                        <img class="img-fluid" src="./assets/img/header/logo.svg" alt="logo.svg">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="input-group border rounded-2">
+                            <input type="search" class="form-control border-0 bg-transparent text-white">
+                            <span class="input-group-append">
+                                <button class="btn text-white">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-row justify-content-end align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/header/cart-icon.svg" alt="cart-icon.svg">
+                        <img class="img-fluid" src="./assets/img/header/heart-icon.svg" alt="heart-icon.svg">
+                        <img class="img-fluid" src="./assets/img/header/user-icon.svg" alt="user-icon.svg">
+                        <a class="text-decoration-none text-white fw-semibold" href="#">Login</a>
+                        <label>|</label>
+                        <a class="text-decoration-none text-white fw-semibold" href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="menu-bar py-2">
+            <div class="container d-flex flex-row justify-content-start align-items-center gap-4">
+                <a class="text-decoration-none text-white fw-semibold" href="#">Brands</a>
+                <a class="text-decoration-none text-white fw-semibold" href="#">Categories</a>
+                <a class="text-decoration-none text-white fw-semibold" href="#">Upcoming Games</a>
+                <a class="text-decoration-none text-white fw-semibold" href="#">Druck</a>
+                <a class="text-decoration-none text-white fw-semibold" href="#">New Releases</a>
+                <a class="text-decoration-none text-white fw-semibold" href="#">Coming Soon</a>
+                <a class="text-decoration-none text-white fw-semibold" href="#">Popular Brands</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="main-modal" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Oops!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is preview only website</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="slider">
+            <div class="container">
+                <div class="row gap-2">
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div id="mainSlider" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid" src="./assets/img/slider/1.png" alt="1.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="./assets/img/slider/1.png" alt="1.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="./assets/img/slider/1.png" alt="1.png">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3 d-flex flex-column gap-3 justify-content-center align-items-center">
+                        <img src="./assets/img/slider/2.png" alt="2.png">
+                        <img src="./assets/img/slider/3.png" alt="3.png">
+                        <img src="./assets/img/slider/4.png" alt="4.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-section text-white mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col justify-content-start align-items-center">
+                        <h3 class="fw-lighter m-0">Newest Physical Listings</h3>
+                    </div>
+                    <div class="col-2 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn btn-primary btn-sm fw-semibold">Show All</button>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs mt-4">
+                    <li class="nav-item">
+                        <a class="nav-link active text-decoration-none text-white fw-semibold" href="#">
+                            <img class="img-fluid" src="./assets/img/main-section/consoles.svg" alt="consoles.svg">
+                            <label class="ms-1">Consoles</label>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none text-white fw-semibold" href="#">
+                            <img class="img-fluid" src="./assets/img/main-section/pc.svg" alt="pc.svg">
+                            <label class="ms-1">PC & Mobile</label>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none text-white fw-semibold" href="#">
+                            <img class="img-fluid" src="./assets/img/main-section/bundles.svg" alt="bundles.svg">
+                            <label class="ms-1">Bundles</label>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none text-white fw-semibold" href="#">
+                            <img class="img-fluid" src="./assets/img/main-section/games.svg" alt="games.svg">
+                            <label class="ms-1">Games</label>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none text-white fw-semibold" href="#">
+                            <img class="img-fluid" src="./assets/img/main-section/accessories.svg" alt="accessories.svg">
+                            <label class="ms-1">Accessories</label>
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex flex-row justify-content-start align-items-center p-3 gap-5 border-0 border-bottom border-start border-end" style="background-color: #212529;">
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                        <small class="fw-semibold">(202 Items)</small>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                        <small class="fw-semibold">(202 Items)</small>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                        <small class="fw-semibold">(202 Items)</small>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                        <small class="fw-semibold">(202 Items)</small>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                        <small class="fw-semibold">(202 Items)</small>
+                    </div>
+                </div>
+                <div class="row mt-4 gap-4">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="./assets/img/main-section/block-1-to-4-banner.png" alt="block-1-to-4-banner.png">
+                    </div>
+                    <div class="col">
+                        <div class="d-flex justify-content-center align-items-center gap-3">
+                            <div class="position-relative">
+                                <div class="position-relative border border-white">
+                                    <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                    <img src="./assets/img/main-section/product-1.png" alt="product-1.png">
+                                    <label class="position-absolute z-3 bottom-0 start-0 end-0 text-center py-3" style="background-color: rgba(0,0,0,60%);">Remnant 2 - Ultimate Edition</label>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start align-items-center gap-2">
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/steam.svg" alt="steam.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/epic-games.svg" alt="epic-games.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0 fw-semibold">
+                                        <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                                            <img style="height: 24px; width: 24px;" src="./assets/img/main-section/cart.svg" alt="cart.svg">
+                                            Add To Cart
+                                        </div>
+                                    </button>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <label class="fw-semibold text-primary">52 &dollar;</label>
+                                        <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="position-relative">
+                                <div class="position-relative border border-white">
+                                    <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                    <img src="./assets/img/main-section/product-2.png" alt="product-2.png">
+                                    <label class="position-absolute z-3 bottom-0 start-0 end-0 text-center py-3" style="background-color: rgba(0,0,0,60%);">Remnant 2 - Ultimate Edition</label>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start align-items-center gap-2">
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/steam.svg" alt="steam.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/epic-games.svg" alt="epic-games.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0 fw-semibold">
+                                        <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                                            <img style="height: 24px; width: 24px;" src="./assets/img/main-section/cart.svg" alt="cart.svg">
+                                            Add To Cart
+                                        </div>
+                                    </button>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <label class="fw-semibold text-primary">52 &dollar;</label>
+                                        <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
+                            <div class="position-relative">
+                                <div class="position-relative border border-white">
+                                    <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                    <img src="./assets/img/main-section/product-3.png" alt="product-3.png">
+                                    <label class="position-absolute z-3 bottom-0 start-0 end-0 text-center py-3" style="background-color: rgba(0,0,0,60%);">Remnant 2 - Ultimate Edition</label>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start align-items-center gap-2">
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/steam.svg" alt="steam.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/epic-games.svg" alt="epic-games.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0 fw-semibold">
+                                        <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                                            <img style="height: 24px; width: 24px;" src="./assets/img/main-section/cart.svg" alt="cart.svg">
+                                            Add To Cart
+                                        </div>
+                                    </button>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <label class="fw-semibold text-primary">52 &dollar;</label>
+                                        <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="position-relative">
+                                <div class="position-relative border border-white">
+                                    <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                    <img src="./assets/img/main-section/product-4.png" alt="product-4.png">
+                                    <label class="position-absolute z-3 bottom-0 start-0 end-0 text-center py-3" style="background-color: rgba(0,0,0,60%);">Remnant 2 - Ultimate Edition</label>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start align-items-center gap-2">
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/steam.svg" alt="steam.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/epic-games.svg" alt="epic-games.svg">
+                                    </button>
+                                    <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0 fw-semibold">
+                                        <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                                            <img style="height: 24px; width: 24px;" src="./assets/img/main-section/cart.svg" alt="cart.svg">
+                                            Add To Cart
+                                        </div>
+                                    </button>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <label class="fw-semibold text-primary">52 &dollar;</label>
+                                        <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col d-flex justify-content-start align-items-center gap-3">
+                        <h3 class="fw-lighter m-0">BANDAI NAMCO Entertainment Games</h3>
+                        <button type="button" class="btn btn-primary btn-sm fw-semibold">Show All</button>
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/back-arrow.svg" alt="back-arrow.svg">
+                        </button>
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/forward-arrow.svg" alt="forward-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center gap-5 mt-4">
+                    <div class="position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./assets/img/main-section/product-5.png" alt="product-5.png">
+                            <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-start align-items-center gap-3 p-2" style="background-color: rgba(0,0,0,60%);">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                            </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center align-items-center py-3" style='font-family: "Sofia Sans", sans-serif;'>
+                            Essential Knowledge: Learn Something New by MIT Press
+                        </div>
+                        <div class="position-relative row">
+                            <button type="button" class="col btn btn-primary fw-semibold rounded-top-0 rounded-end-0 d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                Add To Cart
+                            </button>
+                            <div class="col bg-body-secondary rounded rounded-start-0 rounded-top-0 d-flex flex-row justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./assets/img/main-section/product-6.png" alt="product-6.png">
+                            <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-start align-items-center gap-3 p-2" style="background-color: rgba(0,0,0,60%);">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                            </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center align-items-center py-3" style='font-family: "Sofia Sans", sans-serif;'>
+                            Random Hot Deal 1 Key (PC) - Steam Key - GLOBAL
+                        </div>
+                        <div class="position-relative row">
+                            <button type="button" class="col btn btn-primary fw-semibold rounded-top-0 rounded-end-0 d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                Add To Cart
+                            </button>
+                            <div class="col bg-body-secondary rounded rounded-start-0 rounded-top-0 d-flex flex-row justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./assets/img/main-section/product-7.png" alt="product-7.png">
+                            <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-start align-items-center gap-3 p-2" style="background-color: rgba(0,0,0,60%);">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                            </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center align-items-center py-3" style='font-family: "Sofia Sans", sans-serif;'>
+                            Random Hot Deal 1 Key (PC) - Steam Key - GLOBAL
+                        </div>
+                        <div class="position-relative row">
+                            <button type="button" class="col btn btn-primary fw-semibold rounded-top-0 rounded-end-0 d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                Add To Cart
+                            </button>
+                            <div class="col bg-body-secondary rounded rounded-start-0 rounded-top-0 d-flex flex-row justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col d-flex justify-content-start align-items-center gap-3">
+                        <h3 class="fw-lighter m-0">BANDAI NAMCO Entertainment Games</h3>
+                        <button type="button" class="btn btn-primary btn-sm fw-semibold">Show All</button>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/back-arrow.svg" alt="back-arrow.svg">
+                        </button>
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/forward-arrow.svg" alt="forward-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center gap-5 mt-4">
+                    <div class="position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./assets/img/main-section/product-8.png" alt="product-8.png">
+                            <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-start align-items-center gap-3 p-2" style="background-color: rgba(0,0,0,60%);">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                            </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center align-items-center py-3" style='font-family: "Sofia Sans", sans-serif;'>
+                            Essential Knowledge: Learn Something New by MIT Press
+                        </div>
+                        <div class="position-relative row">
+                            <button type="button" class="col btn btn-primary fw-semibold rounded-top-0 rounded-end-0 d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                Add To Cart
+                            </button>
+                            <div class="col bg-body-secondary rounded rounded-start-0 rounded-top-0 d-flex flex-row justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./assets/img/main-section/product-9.png" alt="product-9.png">
+                            <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-start align-items-center gap-3 p-2" style="background-color: rgba(0,0,0,60%);">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                            </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center align-items-center py-3" style='font-family: "Sofia Sans", sans-serif;'>
+                            Random Hot Deal 1 Key (PC) - Steam Key - GLOBAL
+                        </div>
+                        <div class="position-relative row">
+                            <button type="button" class="col btn btn-primary fw-semibold rounded-top-0 rounded-end-0 d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                Add To Cart
+                            </button>
+                            <div class="col bg-body-secondary rounded rounded-start-0 rounded-top-0 d-flex flex-row justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./assets/img/main-section/product-10.png" alt="product-10.png">
+                            <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-start align-items-center gap-3 p-2" style="background-color: rgba(0,0,0,60%);">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS5.svg" alt="PS5.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS4.svg" alt="PS4.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/PS3.svg" alt="PS3.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-one.svg" alt="xbox-one.svg">
+                                <img style="width: 60px; height: auto;" src="./assets/img/main-section/xbox-360.svg" alt="xbox-360.svg">
+                            </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center align-items-center py-3" style='font-family: "Sofia Sans", sans-serif;'>
+                            Random Hot Deal 1 Key (PC) - Steam Key - GLOBAL
+                        </div>
+                        <div class="position-relative row">
+                            <button type="button" class="col btn btn-primary fw-semibold rounded-top-0 rounded-end-0 d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                Add To Cart
+                            </button>
+                            <div class="col bg-body-secondary rounded rounded-start-0 rounded-top-0 d-flex flex-row justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center gap-3 mt-4">
+                    <div class="position-relative">
+                        <div class="position-relative border border-white">
+                            <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                            <img src="./assets/img/main-section/product-1.png" alt="product-1.png">
+                            <label class="position-absolute z-3 bottom-0 start-0 end-0 text-center py-3" style="background-color: rgba(0,0,0,60%);">Remnant 2 - Ultimate Edition</label>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center gap-2">
+                            <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                <img style="height: 24px; width: 24px;" src="./assets/img/main-section/steam.svg" alt="steam.svg">
+                            </button>
+                            <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                <img style="height: 24px; width: 24px;" src="./assets/img/main-section/epic-games.svg" alt="epic-games.svg">
+                            </button>
+                            <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0 fw-semibold">
+                                <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                                    <img style="height: 24px; width: 24px;" src="./assets/img/main-section/cart.svg" alt="cart.svg">
+                                    Add To Cart
+                                </div>
+                            </button>
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <label class="fw-semibold text-primary">52 &dollar;</label>
+                                <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 h-100 position-relative">
+                        <div class="position-absolute z-1 h-100 w-100" style="background-color: rgba(0,0,0,60%);"></div>
+                        <img class="img-fluid" src="./assets/img/main-section/banner.png" alt="banner.png">
+                        <div class="position-absolute bottom-0 start-0 end-0 top-0 d-flex flex-column justify-content-center align-items-start container z-2">
+                            <h3 class="fw-bold">EXPLORE THE STARS & TAME TEMS IN JULY CHOICE!</h3>
+                            <p class="fw-light">A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation</p>
+                            <p class="fw-light">Juega a la temporada 1 hoy y lucha para recolectar frutas Wumpa en un juego de 4 contra 4 para sembrar el caos Thought drawing Wattson with</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col d-flex justify-content-start align-items-center gap-3">
+                        <h3 class="fw-lighter m-0">Blog</h3>
+                        <button type="button" class="btn btn-primary btn-sm fw-semibold">Show All</button>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/back-arrow.svg" alt="back-arrow.svg">
+                        </button>
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/forward-arrow.svg" alt="forward-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="overflow-x-auto mt-4">
+                    <div style="white-space: nowrap;">
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-11.png" alt="product-11.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-13.png" alt="product-13.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-14.png" alt="product-14.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-15.png" alt="product-15.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-11.png" alt="product-11.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-13.png" alt="product-13.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-14.png" alt="product-14.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-2" style="width: 275px;">
+                            <div class="position-relative">
+                                <label class="fw-light text-primary z-1 position-absolute top-0 end-0 px-2 py-1 rounded-0 rounded-start-3 mt-2" style="background-color: rgba(0,0,0,60%);">2023-02-01</label>
+                                <img class="img-fluid" src="./assets/img/main-section/product-15.png" alt="product-15.png">
+                            </div>
+                            <div class="mt-2" style="white-space: normal;">
+                                <label class="fw-semibold">Starfield Premium Edition</label>
+                                <p class="mt-2">Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favourites like GT Campaign, Arcade and Driving School.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gap-2 mt-4">
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="./assets/img/main-section/banner-2.png" alt="banner-2.png">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center flex-column">
+                        <h3 class="fw-bold">RENT THOUSANDS OF GAMES & MOVIES</h3>
+                        <p>We aren't your average video game website. Since our founding in 2010, we've been raising money for charity in everything we do</p>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="position-relative">
+                            <div class="position-relative border border-white">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img src="./assets/img/main-section/product-3.png" alt="product-3.png">
+                                <label class="position-absolute z-3 bottom-0 start-0 end-0 text-center py-3" style="background-color: rgba(0,0,0,60%);">Remnant 2 - Ultimate Edition</label>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2">
+                                <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                    <img style="height: 24px; width: 24px;" src="./assets/img/main-section/steam.svg" alt="steam.svg">
+                                </button>
+                                <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0">
+                                    <img style="height: 24px; width: 24px;" src="./assets/img/main-section/epic-games.svg" alt="epic-games.svg">
+                                </button>
+                                <button type="button" class="btn rounded-0 rounded-bottom border border-white border-top-0 fw-semibold">
+                                    <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                                        <img style="height: 24px; width: 24px;" src="./assets/img/main-section/cart.svg" alt="cart.svg">
+                                        Add To Cart
+                                    </div>
+                                </button>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col d-flex justify-content-start align-items-center gap-3">
+                        <h3 class="fw-lighter m-0">Steam</h3>
+                        <button type="button" class="btn btn-primary btn-sm fw-semibold">Show All</button>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/back-arrow.svg" alt="back-arrow.svg">
+                        </button>
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/forward-arrow.svg" alt="forward-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="overflow-x-auto mt-4">
+                    <div style="white-space: nowrap;" class="pb-3">
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-16.png" alt="product-16.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-17.png" alt="product-17.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-18.png" alt="product-18.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-19.png" alt="product-19.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-16.png" alt="product-16.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-17.png" alt="product-17.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-18.png" alt="product-18.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-19.png" alt="product-19.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col d-flex justify-content-start align-items-center gap-3">
+                        <h3 class="fw-lighter m-0">Epic</h3>
+                        <button type="button" class="btn btn-primary btn-sm fw-semibold">Show All</button>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/back-arrow.svg" alt="back-arrow.svg">
+                        </button>
+                        <button type="button" class="btn rounded-pill">
+                            <img src="./assets/img/main-section/forward-arrow.svg" alt="forward-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="overflow-x-auto mt-4">
+                    <div style="white-space: nowrap;" class="pb-3">
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-20.png" alt="product-20.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-21.png" alt="product-21.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-22.png" alt="product-22.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-23.png" alt="product-23.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-20.png" alt="product-20.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-21.png" alt="product-21.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-22.png" alt="product-22.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative d-inline-block ms-4" style="width: 298px;">
+                            <div class="position-relative">
+                                <h1 class="discount position-absolute z-1 top-0 start-0 bg-secondary rounded-end px-2 mt-3">10%</h1>
+                                <img class="img-fluid" src="./assets/img/main-section/product-23.png" alt="product-23.png">
+                            </div>
+                            <div class="text-center py-2">
+                                <label class="fw-semibold">Detective Pikachu™ Returns</label>
+                            </div>
+                            <div class="position-relative row">
+                                <button type="button" class="col btn btn-primary btn-sm fw-semibold d-flex justify-content-center align-items-center flex-row gap-2 rounded-top-0 rounded-end-0">
+                                    <img src="./assets/img/main-section/cart-dark.svg" alt="cart-dark.svg">
+                                    Add To Cart
+                                </button>
+                                <div class="col d-flex justify-content-center align-items-center flex-row gap-2 bg-body-secondary rounded rounded-top-0 rounded-start-0">
+                                    <label class="fw-semibold text-primary">52 &dollar;</label>
+                                    <label class="fw-light opacity-75 text-decoration-line-through">11 &dollar;</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="payments bg-body-secondary py-3 mt-4">
+            <div class="container d-flex justify-content-center align-items-center flex-row gap-4">
+                <img class="img-fluid" src="./assets/img/main-section/discover.png" alt="discover.png">
+                <img class="img-fluid" src="./assets/img/main-section/mastercard.png" alt="mastercard.png">
+                <img class="img-fluid" src="./assets/img/main-section/paypal.png" alt="paypal.png">
+                <img class="img-fluid" src="./assets/img/main-section/paysafecard.png" alt="paysafecard.png">
+                <img class="img-fluid" src="./assets/img/main-section/visa.png" alt="visa.png">
+            </div>
+        </section>
+    </main>
+
+    <footer class="container py-4">
+        <div class="row">
+            <div class="col border-0 border-end d-flex flex-column justify-content-start align-items-start gap-2">
+                <label class="fw-semibold" style="font-size: 18px;">Service-Hotline</label>
+                <ul class="list-unstyled">
+                    <li class="fw-light">Telefonische Beratung unter:</li>
+                    <li class="fw-bold">+49 (0) 771 / 175 131 69</li>
+                    <label class="fw-light">Montag - Freitag:</label>
+                    <label class="fw-light">08:00 - 12.00 Uhr</label>
+                    <label class="fw-light">13.00 - 17:00 Uhr</label>
+                </ul>
+            </div>
+            <div class="col border-0 border-end d-flex flex-column justify-content-start align-items-start gap-2">
+                <label class="fw-bold" style="font-size: 18px;">Service-Hotline</label>
+                <ul class="list-unstyled">
+                    <li class="fw-semibold">
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Games</a>
+                    </li>
+                    <li class="fw-semibold">
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Hardware</a>
+                    </li>
+                    <li class="fw-semibold">
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Merchandise</a>
+                    </li>
+                    <li class="fw-semibold">
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Exclusives</a>
+                    </li>
+                    <li class="fw-semibold">
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Online service</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col border-0 border-end d-flex flex-column justify-content-start align-items-start gap-2">
+                <label class="fw-bold" style="font-size: 18px;">Information</label>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Download area</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Imprint</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Data protection</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Newsletter</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Shipment</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col d-flex flex-column justify-content-start align-items-start gap-2">
+                <label class="fw-bold" style="font-size: 18px;">Our Company</label>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">About us</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a class="link-body-emphasis link-underline-opacity-0" href="#">Terms of Use</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center align-items-center gap-3">
+                    <a class="link-body-emphasis link-underline-opacity-0" href="#">
+                        <img src="./assets/img/main-section/twitter.svg" alt="twitter.svg">
+                    </a>
+                    <a class="link-body-emphasis link-underline-opacity-0" href="#">
+                        <img src="./assets/img/main-section/facebook.svg" alt="facebook.svg">
+                    </a>
+                    <a class="link-body-emphasis link-underline-opacity-0" href="#">
+                        <img src="./assets/img/main-section/instagram.svg" alt="instagram.svg">
+                    </a>
+                    <a class="link-body-emphasis link-underline-opacity-0" href="#">
+                        <img src="./assets/img/main-section/youtube.svg" alt="youtube.svg">
+                    </a>
+                    <a class="link-body-emphasis link-underline-opacity-0" href="#">
+                        <img src="./assets/img/main-section/discord.svg" alt="discord.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col text-start">
+                <label>Made by Charlzk</label>
+            </div>
+            <div class="col text-end">
+                <label>Made with Bootstrap 5</label>
+            </div>
+        </div>
+    </footer>
+    
+    <script src='./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
